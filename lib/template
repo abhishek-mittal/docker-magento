@@ -2,7 +2,7 @@
 git init -qqq
 git remote add origin https://github.com/abhishek-mittal/docker-magento
 git fetch origin -qqq
-git checkout origin/master -- compose
+git checkout origin/local-master -- compose
 mv compose/* ./
 mv compose/.gitignore ./
 mv compose/.vscode ./
